@@ -29,9 +29,9 @@ void sensValToLed(int sensorPin, int beat)
   val = analogRead(sensorPin);
   ledChange = map(val, 200, 950, 0, 6);
   sensor = analogRead(sensorPin);
-  Serial.print("LED NUMBER: ");
+  Serial.print("LED NUMBER:\t");
   Serial.print(ledChange + 1);
-  Serial.print("  LRD Value is: ");
+  Serial.print("\t\tLRD Value is:\t");
   Serial.println(sensor);
   digitalWrite(ledArr[ledChange], HIGH);
   delay(beat);
