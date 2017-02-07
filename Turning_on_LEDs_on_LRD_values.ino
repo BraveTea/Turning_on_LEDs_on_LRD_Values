@@ -3,8 +3,8 @@ int ledArr[] =
  12, 7, 
  11, 5};
 
-
 int lightPin = A0;
+
 
 void setup()
 {
