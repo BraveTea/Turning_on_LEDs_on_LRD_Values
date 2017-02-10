@@ -53,3 +53,4 @@ void testsLeds()
     digitalWrite(ledArr[i], HIGH);
   }
 }
+// test
