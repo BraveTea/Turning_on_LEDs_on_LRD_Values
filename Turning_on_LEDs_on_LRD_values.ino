@@ -1,4 +1,4 @@
-int ledArr[] = 
+int ledArr[] =  // add const PIN_COUNT = 4; and add as dimension
 {13, 8, 
  12, 7, 
  11, 5};
