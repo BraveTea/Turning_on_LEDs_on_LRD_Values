@@ -1,4 +1,6 @@
-int ledArr[] =  // add const PIN_COUNT = 4; and add as dimension
+const int pinCount = 6; 
+
+int ledArr[pinCount] =  
 {13, 8, 
  12, 7, 
  11, 5};
@@ -53,4 +55,4 @@ void testsLeds()
     digitalWrite(ledArr[i], HIGH);
   }
 }
-// test
+
