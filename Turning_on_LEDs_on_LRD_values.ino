@@ -1,6 +1,6 @@
-const int pinCount = 6; 
+const int PIN_COUNT = 6; 
 
-int ledArr[pinCount] =  
+int ledArr[PIN_COUNT] =  
 {13, 8, 
  12, 7, 
  11, 5};
