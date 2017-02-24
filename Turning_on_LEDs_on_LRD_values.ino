@@ -12,7 +12,7 @@ void setup()
 {
   Serial.begin(9600);
   pinMode(lightPin, INPUT);
-  for (int i = 0; i < 6; i++)
+  for (int i = 0; i < PIN_COUNT; i++)
   {
     pinMode(ledArr[i], OUTPUT);
   }
@@ -42,7 +42,7 @@ void sensValToLed(int sensorPin, int beat)
 
 void allOff()
 {
-  for (int i = 0; i < 6; i++)
+  for (int i = 0; i < PIN_COUNT; i++)
   {
     digitalWrite(ledArr[i], LOW);
   }
@@ -50,7 +50,7 @@ void allOff()
 
 void testsLeds()
 {
-  for (int i = 0; i < 6; i++)
+  for (int i = 0; i < PIN_COUNT; i++)
   {
     digitalWrite(ledArr[i], HIGH);
   }
